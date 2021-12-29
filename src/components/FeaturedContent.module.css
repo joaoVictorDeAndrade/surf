@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Nunito&family=Roboto&display=swap');
+
+.featured {
+    width: 100vw;
+    height: 75vh;
+    background-image: url("../assets/images/imageFeatured.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    font-family: 'Alice';
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
