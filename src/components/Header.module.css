@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+.header {
+    background-color: var(--second-color);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 60px;
+    z-index: 100;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    font-family: 'Nunito';
+    font-weight: 600;
+    margin-right: 8px;
+    color: #FFF;
+}
+
+.anchor::after {
+    content: url('../assets/icons/Ellipse.png');
+    margin-left: 4px;
+}
