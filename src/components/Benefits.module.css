@@ -1,0 +1,109 @@
+.benefits {
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+/* Primeira Coluna  */
+
+.imagePranchas {
+  height: 110vh;
+  margin: 0 auto;
+}
+
+.map,
+.howToGo {
+  width: 85%;
+  margin: auto;
+  position: relative;
+  top: -9rem;
+}
+
+.howToGo {
+  margin-top: 20px;
+}
+
+.howToGo h3,
+.howToGo p {
+  font-family: "Nunito";
+  font-weight: bold;
+  color: #99aabb;
+}
+
+.howToGo h3 {
+  color: #000;
+}
+
+.howToGo h3::before {
+  content: "";
+  background: url("../assets/icons/Elipse.svg") no-repeat;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+
+.howToGo span {
+  color: #000;
+}
+
+.howToGo p::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 3px;
+  position: relative;
+  top: -3px;
+  margin-right: 5px;
+  background: url("../assets/icons/listItem.svg");
+}
+
+/* Segunda Coluna  */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.titleInfo {
+  font-family: "Alice";
+  font-weight: normal;
+  font-size: 4rem;
+}
+
+.blueText {
+  color: var(--first-color);
+}
+
+.benefitsExamples {
+  border-top: 1px solid #eff4f9;
+  height: 6.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.benefitsExamples p {
+  font-family: "Nunito";
+  font-size: 1.2em;
+  color: var(--second-color);
+  margin-left: 30px;
+}
+
+#lastBenefits {
+  border-bottom: 1px solid #eff4f9;
+}
+
+.text {
+  width: 90%;
+  margin: 40px auto;
+  color: var(--second-color);
+}

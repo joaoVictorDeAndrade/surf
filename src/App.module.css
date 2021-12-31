@@ -1,5 +1,3 @@
-.firstSection {
-    background: url("./assets/images/imageFeatured.jpg")  center left ;
-    height: 80vh;
+.landing {
+    overflow-x: hidden;
 }
-
