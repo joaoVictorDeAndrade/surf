@@ -8,11 +8,12 @@ export default function Header() {
     <header className={styles.header}>
       <Logo />
       <nav>
-          <a href="" className={styles.anchor}>Praia </a>
-          <a href="" className={styles.anchor}>Aulas </a>
-          <a href="" className={styles.anchor}>Contato </a>
+          <a href="#praia" className={styles.anchor}>Praia </a>
+          <a href="#aulas" className={styles.anchor}>Aulas </a>
+          <a href="#contato" className={styles.anchor}>Contato </a>
           <a href="">Matricule-se </a>
       </nav>
     </header>
   );
 } 
+ 

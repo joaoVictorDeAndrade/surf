@@ -1,0 +1,7 @@
+.footer {
+  padding: 1rem 0;
+  background-color: var(--first-color);
+  color: #fff;
+  font-family: "Nunito";
+  text-align: center;
+}

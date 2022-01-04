@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 2rem 4rem;
+  position: relative;
+}
+
+.wrapper h2 {
+  font-family: "Alice";
+  font-weight: normal;
+  font-size: 4rem;
+  text-align: center;
+  color: #456;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  margin-top: 2rem;
+  font-family: "Nunito";
+  color: var(--second-color);
+}
+
+.grid span {
+  font-weight: bold;
+}
+
