@@ -1,0 +1,69 @@
+.aulas {
+  position: relative;
+  padding: 50px 0;
+  background-color: #eff4f9;
+}
+
+.waves {
+  position: absolute;
+  top: -35px;
+  left: calc(50vw - 95px);
+}
+
+.aulas h2 {
+  text-align: center;
+  font-family: "Alice";
+  font-size: 4rem;
+  font-weight: normal;
+  color: var(--second-color);
+  margin-bottom: 2rem;
+}
+
+.aulas h3 {
+  font-family: "Nunito";
+  color: var(--second-color);
+}
+
+.aulas li {
+  color: var(--second-color);
+}
+
+.aulas div p {
+  font-weight: 500;
+  color: #18e;
+}
+
+.aulas span {
+  font-weight: 700;
+  color: #ff3726;
+}
+
+.aulas ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.cardsAulas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+.text {
+  text-align: center;
+  font-family: "Nunito";
+  font-weight: 400;
+  color: var(--second-color);
+}
+
+@media (max-width: 768px) {
+  .cardsAulas {
+    grid-template-columns: 1fr;
+  }
+}
