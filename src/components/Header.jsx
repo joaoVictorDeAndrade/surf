@@ -7,13 +7,28 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <Logo />
-      <nav>
-          <a href="#praia" className={styles.anchor}>Praia </a>
-          <a href="#aulas" className={styles.anchor}>Aulas </a>
-          <a href="#contato" className={styles.anchor}>Contato </a>
-          <a href="">Matricule-se </a>
+      <nav aria-aria-label="primaria">
+        <ul>
+          <li>
+            <a href="#praia" className={styles.anchor}>
+              Praia
+            </a>
+          </li>
+          <li>
+            <a href="#aulas" className={styles.anchor}>
+              Aulas
+            </a>
+          </li>
+          <li>
+            <a href="#contato" className={styles.anchor}>
+              Contato
+            </a>
+          </li>
+          <li>
+            <a href="">Matricule-se </a>
+          </li>
+        </ul>
       </nav>
     </header>
   );
-} 
- 
+}

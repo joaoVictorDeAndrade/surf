@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
-    <section className={styles.wrapper} id="contato">
+    <section className={styles.wrapper} id="contato" >
       <h2>Contato</h2>
 
       <div className={styles.grid}>

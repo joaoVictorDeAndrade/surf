@@ -8,7 +8,7 @@ import Profissional from "./Aulas/Profissional";
 
 export default function Aulas() {
   return (
-    <section className={styles.aulas} id="aulas">
+    <section className={styles.aulas} id="aulas" >
       <img src={Waves} className={styles.waves} />
       <h2>Aulas</h2>
       <div className={styles.cardsAulas}>

@@ -10,10 +10,10 @@ import Map from "../assets/images/map.jpg";
 
 export default function Benefits() {
   return (
-    <section className={styles.benefits} id="praia">
+    <section className={styles.benefits} id="praia" aria-label="Benefícios">
       <div className={styles.firstColumn}>
-        <img className={styles.imagePranchas} src={ImageSecond} alt="" />
-        <img className={styles.map} src={Map} alt="" />
+        <img className={styles.imagePranchas} src={ImageSecond} alt="Pranchas de Surf" />
+        <img className={styles.map} src={Map} alt="Mapa" />
         <div className={styles.howToGo}>
           <h3>COMO CHEGAR</h3>
           <p>
