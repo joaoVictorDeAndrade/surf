@@ -1,7 +1,6 @@
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
 }
 
 .form label {
@@ -35,4 +34,12 @@
 .form input:focus,
 .form textarea:focus {
   outline: 0;
+  border: 1px solid var(--first-color);
+}
+
+@media (max-width: 500px) {
+  .form {
+    width: 100%;
+    max-width: 1000px;
+  }
 }

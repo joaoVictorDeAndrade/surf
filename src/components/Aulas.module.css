@@ -61,7 +61,12 @@
 }
 
 @media (max-width: 768px) {
+  .aulas {
+    margin-top: 40px;
+  }
+
   .cardsAulas {
     grid-template-columns: 1fr;
+    gap: 35px;
   }
 }

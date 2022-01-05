@@ -39,3 +39,14 @@
 .matricula:hover {
     opacity: 0.95;
 }
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+
+  .matricula {
+    font-size: 1.3rem;
+  }
+}

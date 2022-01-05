@@ -1,26 +1,26 @@
 .header {
-    background-color: var(--second-color);
-    width: 100%;
-    height: 60px;
-    padding: 0 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: var(--second-color);
+  width: 100%;
+  height: 60px;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header ul {
-    display: flex;
+  display: flex;
 }
 
 nav a {
-    font-family: 'Nunito';
-    font-weight: normal;
-    margin-right: 8px;
-    color: #FFF;
-    padding: 5px 0px;
+  font-family: "Nunito";
+  font-weight: normal;
+  margin-right: 8px;
+  color: #fff;
+  padding: 5px 0px;
 }
 
 .anchor::after {
-    content: url('../assets/icons/Ellipse.png');
-    margin-left: 5px;
+  content: url("../assets/icons/Ellipse.png");
+  margin-left: 5px;
 }

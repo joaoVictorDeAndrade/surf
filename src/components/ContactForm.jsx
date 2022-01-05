@@ -17,7 +17,8 @@ export default function ContactForm() {
         Mensagem
         <textarea id="textarea" rows="10"></textarea>
       </label>
-      <ButtonMatricula text="ENVIAR MENSAGEM" size="55%" />
+      <ButtonMatricula text="ENVIAR MENSAGEM" size="60%" />
     </form>
   );
 }
+ 
