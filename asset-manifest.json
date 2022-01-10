@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/surf/static/css/main.d77f9630.css",
+    "main.js": "/surf/static/js/main.fbed36a9.js",
+    "static/media/imageSecond.jpg": "/surf/static/media/imageSecond.b382b5d5dd4ace32dd73.jpg",
+    "static/media/imageThird.jpg": "/surf/static/media/imageThird.334119d5c3acb790f492.jpg",
+    "static/media/intro.jpg": "/surf/static/media/intro.b153621b02faa20d2675.jpg",
+    "static/media/map.jpg": "/surf/static/media/map.69c2f70b88b7c82256bd.jpg",
+    "static/media/sandalhas.svg": "/surf/static/media/sandalhas.ae72359cc6f31942afec6204146a51da.svg",
+    "static/media/coco.svg": "/surf/static/media/coco.2d02a881ad8ab6896ffe9e08138a6907.svg",
+    "static/media/surfLogo.svg": "/surf/static/media/surfLogo.2c5d8905a2cc00af23f66955b94ed568.svg",
+    "static/media/boia.svg": "/surf/static/media/boia.31a2733893c6ed82bd581de68c67dc1d.svg",
+    "static/media/prancha.svg": "/surf/static/media/prancha.1cf512325afed789104eba4afe13778f.svg",
+    "index.html": "/surf/index.html",
+    "static/media/seta.svg": "/surf/static/media/seta.42f421605c90d63ca198.svg",
+    "static/media/Elipse.svg": "/surf/static/media/Elipse.0f4939f79cc9064c03ea.svg",
+    "static/media/listItem.svg": "/surf/static/media/listItem.83b86a6f4934e5e444e9.svg",
+    "main.d77f9630.css.map": "/surf/static/css/main.d77f9630.css.map",
+    "main.fbed36a9.js.map": "/surf/static/js/main.fbed36a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d77f9630.css",
+    "static/js/main.fbed36a9.js"
+  ]
+}
