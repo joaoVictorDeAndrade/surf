@@ -1,9 +1,9 @@
 {
     "files.exclude": {
       "node_modules": true,
-      ".vscode": true,
+      ".vscode": false,
       ".gitignore": true,
       "package-lock.json": true,
-      "public": true
+      "public": false
     },
 }

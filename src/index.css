@@ -81,3 +81,13 @@ ul {
     margin: auto;
   }
 }
+
+@media (min-width: 2000px) {
+  html {
+    font-size: 2rem;
+  }
+
+  .cardAulas {
+    height: 700px;
+  }
+}
